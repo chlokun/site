@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block access to specific folders
+Disallow: /private/
+Disallow: /admin/
+
+# Block access to specific file types
+# Disallow: /*.pdf$
+
+# Sitemap location (uncomment and update if you have a sitemap)
+Sitemap: https://chlokun.lol/sitemap.xml
